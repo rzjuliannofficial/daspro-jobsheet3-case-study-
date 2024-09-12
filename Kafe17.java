@@ -9,7 +9,7 @@ public class Kafe17 {
     boolean keanggotaan;
     int jmlKopi, jmlTeh, jmlRoti;
     double hargaKopi = 12000.0, hargaTeh = 7000.0 , hargaRoti = 20000.0, totalHarga, nominalBayar;
-    float diskon = 10/ 100f;
+    float diskon = 10/100f;
 
     System.out.print("Masukkan keanggotan (true/false): ");
     keanggotaan = input.nextBoolean ();
@@ -30,5 +30,7 @@ public class Kafe17 {
     System.out.println("Nominal bayar Rp " + nominalBayar);
     System.out.println("Total Harga (byte) Rp " + totalByte);
     System.out.println("Nominal bayar (int) Rp " + nominalInt);
+
+    input.close();
     }
 }

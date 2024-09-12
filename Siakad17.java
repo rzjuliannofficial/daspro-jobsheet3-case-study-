@@ -15,7 +15,7 @@ public class Siakad17 {
     System.out.print("Masukkan NIM: ");
     nim = sc.nextLine();
     System.out.print("Masukkan kelas: ");
-    kelas = sc.nextLine().charAt(0);
+    kelas = sc.nextLine().charAt(0); // kode tsb digunakan mengoutput 1 kata dari input, 0 menandakan mengoutput huruf pertama 
     System.out.print("Masukkan nomor absen: ");
     absen = sc.nextByte();
 
@@ -33,5 +33,7 @@ public class Siakad17 {
     System.out.println("Nama: " + nama + " NIM: " + nim);
     System.out.println("Kelas: " + kelas + " Absen: " + absen);
     System.out.println("Nilai Akhir: " + nilaiAkhir);
+
+    sc.close();
     }
 }
